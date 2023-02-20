@@ -36,14 +36,14 @@
 
 <meta name="twitter:creator" content="@dylanwu">
 
-  <link rel="stylesheet" href="/_astro/about.9a61270c.css" />
+  <link rel="stylesheet" href="/_astro/about.8683f8cc.css" />
 <link rel="stylesheet" href="/_astro/variable.5f70428a.css" />
 <link rel="stylesheet" href="/_astro/Layout.astro_astro_type_style_index_0_lang.f7bd5ad1.css" /><script type="module">document.addEventListener("DOMContentLoaded",function(){document.getElementById("astronav-menu").addEventListener("click",()=>{[...document.querySelectorAll(".astronav-toggle")].forEach(e=>{e.classList.toggle("hidden")})});const o=document.querySelectorAll(".astronav-dropdown");o.forEach(e=>{const r=e.querySelector("button");r.addEventListener("click",n=>{e.classList.toggle("open"),e.setAttribute("aria-expanded",e.getAttribute("aria-expanded")==="true"?"false":"true"),e.hasAttribute("open")?e.removeAttribute("open"):e.setAttribute("open",""),r.nextElementSibling.classList.toggle("hidden"),Array.from(o).filter(t=>t!==e).forEach(t=>{t.classList.remove("open"),t.removeAttribute("open"),t.setAttribute("aria-expanded","false"),t.querySelector(".dropdown-toggle").classList.add("hidden")}),n.stopPropagation()})}),document.addEventListener("click",()=>{o.forEach(e=>{e.classList.remove("open"),e.removeAttribute("open"),e.setAttribute("aria-expanded","false")}),document.querySelectorAll(".dropdown-toggle").forEach(e=>e.classList.add("hidden"))})});
 </script></head>
   <body>
     <div class="max-w-screen-xl mx-auto px-5">
-  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
-    <div class="flex w-full lg:w-auto items-center justify-between">
+  <header class="flex flex-col items-center justify-between my-5 lg:flex-row">
+    <div class="flex items-center justify-between w-full lg:w-auto">
         <a href="/">
           <span><img class="w-14" src="/logo.png"></span>
         </a>
@@ -58,7 +58,7 @@
   
 </button>
         </div>
-      </div><nav class="astronav-toggle hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+      </div><nav class="astronav-toggle hidden w-full mt-2 lg:w-auto lg:flex lg:mt-0">
     <ul class="flex flex-col lg:flex-row lg:gap-3">
           <li class="relative">
   <div class="astronav-dropdown group" aria-expanded="false"><button class="flex items-center gap-1 w-full lg:w-auto lg:px-3 py-2 text-gray-600 hover:text-gray-900">
@@ -78,19 +78,23 @@
         </div>
       </div></div></div>
 </li><li>
-                    <a href="/resources" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                    <a href="/resources" class="flex py-2 text-gray-600 lg:px-3 hover:text-gray-900">
                       Resources
                     </a>
                   </li><li>
-                    <a href="/blog" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                    <a href="/news" class="flex py-2 text-gray-600 lg:px-3 hover:text-gray-900">
+                      News
+                    </a>
+                  </li><li>
+                    <a href="/blog" class="flex py-2 text-gray-600 lg:px-3 hover:text-gray-900">
                       Learning
                     </a>
                   </li><li>
-                    <a href="/about" class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                    <a href="/about" class="flex py-2 text-gray-600 lg:px-3 hover:text-gray-900">
                       About
                     </a>
                   </li>
-        </ul><div class="lg:hidden flex items-center mt-3 gap-4">
+        </ul><div class="flex items-center gap-4 mt-3 lg:hidden">
           <a href="#" class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-4 py-2 bg-gray-100 hover:bg-gray-200 border-2 border-transparent">Log in
 </a>
           <a href="#" class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 w-full px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 border-transparent">Sign up
@@ -100,7 +104,7 @@
 
 
     <div>
-      <div class="hidden lg:flex items-center gap-4">
+      <div class="items-center hidden gap-4 lg:flex">
         <a href="#">Log in</a>
         <a href="#" class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 border-transparent">Sign up
 </a>
